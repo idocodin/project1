@@ -37,12 +37,13 @@ h1{
        
         width:auto;
     }
-        nav a.slide:hover{
-            color: rgba(255, 0, 0, 1.00);
+      nav a.slide:hover{
+            color: rgb(0, 0, 0);
             text-shadow: 3px 2px 5px #fab433;
-           
-            background-color: rgba(0, 255, 168, 0.15);
-           
+           text-decoration:none;
+            background-color: white;
+            border-radius:20%;
+           box-shadow: rgb(0, 255, 221) 10px 6px 20px 0px ;
            
             
         }
