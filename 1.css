@@ -1,0 +1,287 @@
+header {
+   
+    background-position: initial;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    border: groove;
+    z-index: 03;
+}
+#navbar {
+    color: blue;
+    background-image: url("https://sravyapatakota.weebly.com/uploads/8/7/2/6/87261000/loadingbutton_orig.gif");
+    background-color:red;
+}
+nav
+{
+    text-align: left;
+    font-size: 130%;
+    overflow: auto;
+    padding: 1% 1%;
+}
+
+h1{
+    font-size:200%;
+}
+    nav a {
+        
+        padding: 1% 2%;
+        margin: 0.025% 3% 0.025% 2%;
+        display: inline-flex;
+        border-width: 3px;
+        border-radius: 5%;
+        text-decoration: none;
+        font-family: OpenSans,Arial,sans-serif;
+       
+        width:auto;
+    }
+        nav a:hover{
+            color: rgba(223, 255, 0, 0.75);
+            text-shadow: 3px 2px 5px #fab433;
+            padding: 1%;
+            background-color: rgba(0, 255, 168, 0.15);
+            transition-duration: 1s;
+            text-decoration:none;
+            
+        }
+body{
+    margin:0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: yellow;
+        display: block;
+        transition: 0.3s;
+    }
+
+
+         .sidenav a:hover
+        {
+            color:white;
+            text-shadow:2px 1px 5px yellow;
+            transition-duration:0.51s;
+        }
+        
+ .sidenav .closebtn 
+ {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+ }
+#parallax {
+    /* The image used */
+    background-image: url("https://eskipaper.com/images/amazing-wallpaper-13.jpg");
+    /* Set a specific height */
+    min-height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax1 {
+    background-image: url("https://goldwallpapers.com/uploads/posts/taj-mahal-photos-wallpapers/taj_mahal_photos_wallpapers_019.jpg");
+    /* Set a specific height */
+    min-height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax2 {
+    background-image: url("https://wallpaperaccess.com/full/251618.jpg");
+    /* Set a specific height */
+    min-height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax3 {
+    background-image: url("https://neilpatel.com/wp-content/uploads/2017/12/build-high-quality-backlinks.jpg");
+    /* Set a specific height */
+    min-height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:4;
+}
+#parallax4 {
+    background-image: url("https://wallpaperaccess.com/full/469540.jpg");
+    /* Set a specific height */
+    min-height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    z-index: 4;
+}
+
+#writ {
+    display: block;
+    float: left;
+    margin: 10% 40% 0 10%;
+    background: rgba(244, 244, 244, 0.00);
+    color: #ffff;
+    text-shadow: 2px 2px 3px #0400ff;
+    overflow: hidden;
+    padding-left: 0.25%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    font-size: 240%;
+    border-radius: 10%;
+}
+#writ1 {
+    display: block;
+    float: right;
+    margin: 5% 1% 0 45%;
+    background: rgba(244, 244, 244, 0.00);
+    color: #ffff;
+    text-shadow: 5px 5px 5px #111;
+    overflow: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    font-size: 240%;
+    border-radius: 10%;
+    text-align:right;
+}
+#writ2 {
+    display: block;
+    float: left;
+    margin: 10% 40% 0 10%;
+    background: rgba(244, 244, 244, 0.00);
+    color: #ffff;
+    text-shadow: 2px 2px 3px #0400ff;
+    overflow: hidden;
+    padding-left: 0.25%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    font-size: 240%;
+    border-radius: 10%;
+}
+#writ3 {
+    display: block;
+    float: right;
+    margin: 5% 1% 0 45%;
+    background: rgba(244, 244, 244, 0.00);
+    color: #ffff;
+    text-shadow: 5px 5px 5px #111;
+    overflow: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    font-size: 240%;
+    border-radius: 10%;
+    text-align: right;
+}
+#writ4 {
+    display: block;
+    float: left;
+    margin: 10% 40% 0 10%;
+    background: rgba(244, 244, 244, 0.00);
+    color: #ffff;
+    text-shadow: 2px 2px 3px #0400ff;
+    overflow: hidden;
+    padding-left: 0.25%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    font-size: 240%;
+    border-radius: 10%;
+}
+#navbar {
+    margin-left: 2%;
+}
+
+/*mobile view*/
+@media screen and (min-width:200px)
+{
+body{
+ 
+}
+    nav a {
+        display: none;
+    }
+    #navbar .sidenav
+    {
+        border:outset;
+        border-color:rgb(241, 201, 55);
+     color:yellow;
+     display:inline;
+     margin:1%;
+    }
+    header {
+        background-color: transparent;
+        border:none;
+        background-image:none;
+    }
+   
+    
+}
+@media screen and (min-width:586px)
+{     
+    h1{
+        font-size:140%;
+    }
+    
+    header {
+        background-color: transparent;
+        background-image:none;
+        border: none;
+    }
+}
+/*tablet and larger screen views*/
+@media screen and (min-width:900px) {
+    body {
+    
+    }
+    nav a {
+        display: inline-flex;
+        color: #00ffa8;
+    }
+    .sidenav {
+        display: none;
+    }
+    header span
+    {
+        display:none;
+    }
+    header {
+        background-color: rgba(255, 158, 158, 1.70);
+        background-image: url("https://thevisualcommunicationguy.com/wp-content/uploads/2016/05/Header-Background.jpg");
+        border-top-style: groove;
+        background-size: cover;
+        background-position-y: center;
+    }
+   
+    
+}
