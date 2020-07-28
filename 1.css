@@ -8,8 +8,8 @@ header {
     z-index: 03;
 }
 #navbar {
-    color: blue;
- padding:1% 2% 1% 2%;
+    color: yellow;
+     padding:1% 2% 1% 2%;
     
     box-shadow:rgb(231, 209, 202) 1px 2px 3px 2px inset;
 }
