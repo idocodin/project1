@@ -12,6 +12,7 @@ header {
      padding:1% 2% 1% 2%;
     
     box-shadow:rgb(231, 209, 202) 1px 2px 3px 2px inset;
+
 }
 nav
 {
@@ -36,20 +37,21 @@ h1{
        
         width:auto;
     }
-        nav a:hover{
-            color: rgba(223, 255, 0, 0.75);
+        nav a.slide:hover{
+            color: rgba(255, 0, 0, 1.00);
             text-shadow: 3px 2px 5px #fab433;
-            padding: 1%;
+           
             background-color: rgba(0, 255, 168, 0.15);
-            transition-duration: 1s;
-            text-decoration:none;
+           
+           
             
         }
 body{
     margin:0;
 }
 
-.sidenav {
+.sidenav
+{
     height: 100%;
     width: 0;
     position: fixed;
@@ -65,11 +67,10 @@ body{
     .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 300%;
+        font-size: 250%;
         color: yellow;
         display: block;
-        transition: 0.45s;
-       margin-top:10%;
+        transition: 0.3s;
     }
 
 
@@ -246,7 +247,14 @@ body{
         border:none;
         background-image:none;
     }
-   
+    #parallax, #parallax1, #parallax2,#parallax3,#parallax4{
+        background-size:cover;
+       background-position-x:center;
+       background-position-y:bottom;
+        
+
+
+    }
     
 }
 @media screen and (min-width:586px)
@@ -260,9 +268,13 @@ body{
         background-image:none;
         border: none;
     }
-}
+    #parallax, #parallax1, #parallax2, #parallax3, #parallax4 {
+        background-size: cover;
+        background-position-x: right;
+        background-position-y: top;
+    }
 /*tablet and larger screen views*/
-@media screen and (min-width:1500px) {
+@media screen and (min-width:900px) {
     body {
     
     }
@@ -284,6 +296,7 @@ body{
         background-size: cover;
         background-position-y: center;
     }
-   
-    
-}
+    #parallax, #parallax1, #parallax2, #parallax3, #parallax4 {
+        background-size: cover;
+        background-position:center;
+    }
