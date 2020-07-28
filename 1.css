@@ -9,8 +9,9 @@ header {
 }
 #navbar {
     color: blue;
-    background-image: url("https://sravyapatakota.weebly.com/uploads/8/7/2/6/87261000/loadingbutton_orig.gif");
-    background-color:red;
+ padding:1% 2% 1% 2%;
+    
+    box-shadow:rgb(231, 209, 202) 1px 2px 3px 2px inset;
 }
 nav
 {
