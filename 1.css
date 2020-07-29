@@ -275,7 +275,7 @@ body{
         background-position-y: top;
     }
 /*tablet and larger screen views*/
-@media screen and (min-width:900px) {
+@media screen and (min-width:1200px) {
     body {
     
     }
