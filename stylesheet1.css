@@ -62,7 +62,9 @@ footer p{
     }
     #tribute{
         margin:0 auto;
+        font-size:100%;
     }
+    
 }
 @media screen and (min-width:950px) {
     #main {
